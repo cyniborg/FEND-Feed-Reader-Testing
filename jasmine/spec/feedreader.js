@@ -129,7 +129,7 @@ $(function() {
         var firstFeed = $('.feed').find('h2')[0].innerText;
 
         // Compare two of them, should not equal
-        expect(firstFeed).not.toEqual(fefeedTest);
+        expect(firstFeed).not.toEqual(feedTest);
 
         // Invoke done callback function
         done();
